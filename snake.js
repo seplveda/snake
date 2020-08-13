@@ -14,7 +14,6 @@ class Snake {
 	}
 
 	update() {
-
 		this.body[0].x += this.xdir;
 		this.body[0].y += this.ydir;
 
